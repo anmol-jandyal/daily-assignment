@@ -25,7 +25,7 @@ const st1 = {
 };
 
 // ================================================
-//task 2
+//task 2  bind, call and apply
 
 function displayInfo() {
 	console.log(`Name: ${this.stName} \n Age: ${this.age}\n Grade: ${this.gradeArray()}`);
@@ -83,7 +83,7 @@ function processSubject(subjects, processor) {
 processSubject(st1.subjectNameArray(), upperCase);
 
 //=======================================================
-//task 4
+//task 4 map and filter
 
 function doubleGrade() {
 	return this.gradeArray().map((val) => 2 * val);
